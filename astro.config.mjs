@@ -7,6 +7,6 @@ export default defineConfig({
   integrations: [tailwind()],
   output: 'server',
   site: 'https://deromeroo.github.io',
-  base: '/books-astro',
+  base: '/book-astro',
 
 });
