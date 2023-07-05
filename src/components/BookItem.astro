@@ -1,0 +1,16 @@
+---
+const {
+  id,
+  title,
+  img
+} = Astro.props
+---
+
+<a href=`/${id}` class="hover:scale-105 inline-block transition-all hover:contrast-125 hover:shadow-2xl">
+  <img 
+    class="aspect-[389/500] h-full w-full object-cover rounded" 
+    src={img} 
+    alt=`Portada del Libro: ${title}`
+    style=`view-transition-name: book-${id}`
+  />
+</a>
